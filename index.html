@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProAuto Korjaamo</title>
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; color:#333; line-height:1.6; }
+header { background:#1a1a1a; color:white; padding:30px 0; text-align:center; }
+header h1 { margin:0; font-size:2.5em; }
+nav a { color:white; margin:0 15px; text-decoration:none; font-weight:bold; }
+section { padding:40px 20px; max-width:1200px; margin:auto; background:white; margin-bottom:20px; border-radius:8px; }
+h1,h2,h3 { margin-top:0; }
+.btn { display:inline-block; padding:10px 20px; background:#1a1a1a; color:white; text-decoration:none; border-radius:4px; margin-top:10px; }
+ul { padding-left:20px; }
+li { margin-bottom:10px; }
+form input, form textarea { width:100%; padding:10px; margin-bottom:10px; border-radius:4px; border:1px solid #ccc; }
+form button { background:#1a1a1a; color:white; border:none; padding:10px 20px; border-radius:4px; cursor:pointer; }
+img { max-width:100%; height:auto; border-radius:8px; margin-top:10px; }
+.card { border:1px solid #ccc; padding:20px; border-radius:8px; margin-bottom:20px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
+footer { background:#222; color:white; text-align:center; padding:20px; font-size:0.9em; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ProAuto Korjaamo</h1>
+  <p>Luotettava merkkikorjaamo kaikenlaisille autoille</p>
+  <nav>
+    <a href="#etusivu">Etusivu</a>
+    <a href="#palvelut">Palvelut</a>
+    <a href="#tiimi">Tiimi</a>
+    <a href="#hinnasto">Hinnasto</a>
+    <a href="#yhteystiedot">Yhteystiedot</a>
+  </nav>
+</header>
+
+<section id="etusivu">
+  <h2>Tervetuloa ProAuto Korjaamoon!</h2>
+  <p>Olemme erikoistuneet merkkikorjauksiin, huoltoon ja sähköautoihin. Meillä käytössä uusimmat diagnostiikkalaitteet ja ammattitaitoinen henkilökunta.</p>
+  <img src="https://source.unsplash.com/1200x400/?car,repair,garage" alt="Autokorjaamo">
+  <a href="#yhteystiedot" class="btn">Varaa huolto</a>
+</section>
+
+<section id="palvelut">
+  <h2>Palvelumme</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Moottorikorjaus</h3>
+      <p>Täyden palvelun moottorikorjaukset kaikille merkeille ja malleille, myös sähköautot ja hybridi-autot.</p>
+    </div>
+    <div class="card">
+      <h3>Jarrut ja alusta</h3>
+      <p>Turvalliset jarruhuollot, levyjen ja palojen vaihto, alustakunnostukset ja iskunvaimentimet.</p>
+    </div>
+    <div class="card">
+      <h3>Diagnostiikka</h3>
+      <p>Uusimmat OBD- ja merkkikohtaiset diagnostiikkatyökalut ongelmien nopeaan tunnistamiseen.</p>
+    </div>
+    <div class="card">
+      <h3>Sähkö- ja hybridiautot</h3>
+      <p>Erikoistunut huolto ja korjaus sähköautoille ja hybrideille, mukaan lukien akun tarkistus ja ohjelmistopäivitykset.</p>
+    </div>
+    <div class="card">
+      <h3>Huollot ja määräaikaishuollot</h3>
+      <p>Öljynvaihdot, suodattimet, määräaikaishuollot ja katsastushuollot kaikkiin automerkkeihin.</p>
+    </div>
+    <div class="card">
+      <h3>Renkaat ja rengastyöt</h3>
+      <p>Renkaiden vaihto, tasapainotus, pinnoitus ja varastointi. Kesä- ja talvirenkaat ammattitaidolla.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tiimi">
+  <h2>Tiimimme</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Mikko Korjaaja</h3>
+      <p>Moottori- ja vaihteistospesialisti, yli 15 vuoden kokemus.</p>
+    </div>
+    <div class="card">
+      <h3>Laura Automekaanikko</h3>
+      <p>Jarrut, alusta ja sähköautot. Koulutettu sähköautotekniikkaan.</p>
+    </div>
+    <div class="card">
+      <h3>Jari Diagnostiikka</h3>
+      <p>Erikoistunut vikadiagnostiikkaan ja merkkikohtaisiin ohjelmistopäivityksiin.</p>
+    </div>
+  </div>
+</section>
+
+<section id="hinnasto">
+  <h2>Hinnasto</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Perushuolto</h3>
+      <p>69€/kerta – öljynvaihto, suodattimet ja tarkastukset</p>
+    </div>
+    <div class="card">
+      <h3>Laaja huoltopaketti</h3>
+      <p>129€/kerta – sisältää kaiken perushuollon + jarrut ja alustan tarkastus</p>
+    </div>
+    <div class="card">
+      <h3>Moottorikorjaus</h3>
+      <p>Hinta arvioidaan erikseen, alkaa 399€ riippuen automerkistä ja ongelmasta</p>
+    </div>
+    <div class="card">
+      <h3>Renkaiden vaihto</h3>
+      <p>35€ / pyörä – sisältää tasapainotuksen</p>
+    </div>
+  </div>
+</section>
+
+<section id="yhteystiedot">
+  <h2>Ota yhteyttä</h2>
+  <p>Puhelin: +358 41 721 6027</p>
+  <p>Sähköposti: proauto.korjaamo@gmail.com</p>
+  <form action="mailto:proauto.korjaamo@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Nimi" placeholder="Nimesi" required>
+    <input type="email" name="Sahkoposti" placeholder="Sähköpostisi" required>
+    <textarea name="Viesti" placeholder="Kirjoita viesti..." rows="5" required></textarea>
+    <button type="submit">Lähetä</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 ProAuto Korjaamo. Kaikki oikeudet pidätetään.</p>
+</footer>
+
+</body>
+</html>
